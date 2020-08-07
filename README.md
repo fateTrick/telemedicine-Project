@@ -1,11 +1,11 @@
 # telemedicine-Project
 Im working on a small project and im in a bind
 
-pragma solidity ^0.4.26;
+    pragma solidity ^0.4.26;
 
-import "github.com/ethereum/dapp-bin/library/stringUtils.sol";
+    import "github.com/ethereum/dapp-bin/library/stringUtils.sol";
 
-contract ElectronicHealthRecords {
+    contract ElectronicHealthRecords {
     bool public status;
     address public Admin;
     address public EHRsManager;
